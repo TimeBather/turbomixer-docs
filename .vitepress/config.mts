@@ -28,5 +28,6 @@ export default defineConfig({
         socialLinks: [
             {icon: 'github', link: 'https://github.com/turbomixer/turbomixer'}
         ]
-    }
+    },
+    ignoreDeadLinks:true // @todo:Temporary solution,remove when the document ready
 })
